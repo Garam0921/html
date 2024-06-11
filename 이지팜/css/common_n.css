@@ -1,0 +1,35 @@
+/* base */
+*{padding: 0;
+margin: 0;
+font-family: "맑은 고딕", sans-serif;
+font-size: 14px;
+color: #333;}
+li{list-style: none;}
+a{ text-decoration: none;}
+img{border: none;}
+
+body{width: 1000px; height: 650px;}
+
+/* popup */
+.popup{ display: none;
+position: fixed;
+left: 0;
+width: 300px;
+height: 300px;
+border: 5px solid #be0f00;
+padding: 15px;
+box-sizing: border-box;
+background-color: #fff;
+z-index: 6000;}
+
+.popup h2{font-size: 15px;
+margin-bottom: 10px;
+color: #be0f00;}
+
+.popup p{font-size: 12px;
+color: #666;
+line-height: 17px;
+margin-bottom: 10px;}
+
+
+

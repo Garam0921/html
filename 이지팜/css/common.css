@@ -1,0 +1,77 @@
+/* base */
+*{ padding: 0; margin: 0; font-family: "맑은 고딕", sans-serif;  font-size: 14px; color: #333333; }
+li{ list-style: none; }
+a{ text-decoration: none; }
+img{ border: none; }
+
+
+body{ width: 1000px; height: 650px; }
+
+
+/* popup */
+.popup{ display: none; position: fixed; left: 0; top: 0; width: 300px; height: 300px; border: 5px solid #be0f00; padding: 15px; box-sizing: border-box; background-color: #fff; z-index: 6000; }
+.popup h2{ font-size: 15px; margin-bottom: 10px; color: #be0f00; }
+.popup p{ font-size: 12px; color: #666666; line-height: 17px; margin-bottom: 10px; }
+.popup a{ display: block; font-size: 12px; text-align: right; }
+
+
+/* header */
+.header{ float: left; width: 200px; height: 650px;  }
+.header h1{ width: 100%; height: 100px; padding-top: 20px; box-sizing: border-box; }
+
+.gnb{ width: 100%; padding: 20px; box-sizing: border-box; }
+.gnb > ul > li{ position: relative; width: 100%; }
+.gnb .mainNav{ display: block; width: 100%; height: 40px; line-height: 40px; padding-left: 10px; box-sizing: border-box;  font-weight: bold; font-size: 18px;  border-bottom: 1px solid #be0f00; }
+.gnb > ul > li:hover .mainNav{ color: #fff; background-color: #be0f00; }
+.gnb .subNav{ display: none; position: absolute; top: -40px; left: 160px; z-index: 1000; width: 160px; background-color: #be0f00; box-sizing: border-box; border: 1px solid #be0f00; }
+.gnb .subNav a{ display: block; width: 100%; height: 40px; line-height: 40px; color:#fff; padding-left: 10px; box-sizing: border-box; }
+.gnb .subNav a:hover{ background-color: #fff; color: #be0f00; }
+
+
+
+
+.main{ float: left; width: 800px; height: 350px; position: relative; overflow: hidden; }
+.main ul{ position: absolute; top: 0; left: 0; width: 800px; height: 350px; }
+.main li{ width: 800px; height: 350px; }
+.main li img{ display: block; }
+
+
+.contents{ float: left; width: 800px; height: 200px; }
+
+.notice{ float: left; width: 300px; height: 200px; padding: 0 10px; box-sizing: border-box; }
+.notice h3{ width: 100%; height: 50px; box-sizing: border-box; border-bottom: 2px solid #be0f00; font-size: 18px; line-height: 48px; }
+.notice li{ width: 100%; height: 30px; line-height: 30px; font-size: 12px; }
+.notice li a{ float: left; display: block; width: 200px; height: 30px; padding-left: 10px; box-sizing: border-box; font-size: 12px; }
+.notice li .date{ float: right; display: block; width: 70px; height: 30px; padding-right: 10px; box-sizing: border-box; font-size: 12px; text-align: right;  }
+
+.gallery{ float: left; width: 300px; height: 200px; padding: 0 10px; box-sizing: border-box; }
+.gallery h3{ width: 100%; height: 50px; box-sizing: border-box; border-bottom: 2px solid #be0f00; font-size: 18px; line-height: 48px; }
+.gallery ul{ padding: 25px 0; }
+.gallery li{ float: left; width: 80px; height: 100px; margin-right: 20px; }
+.gallery .last{ margin-right: 0; }
+.gallery li img{ display: block; transition: 0.3s; }
+.gallery li a:hover img{ opacity: 0.5; }
+
+.now{ float: left; width: 200px; height: 200px; }
+.now img{ display: block; }
+
+
+
+
+/* footer */
+.footer{ float: left; width: 800px; height: 100px; background-color: #ededed; }
+.footer h1{ float: left; width: 200px; height: 100px; padding-top: 20px; box-sizing: border-box; }
+.fNav, footer p{ float: left; width: 600px; height: 50px; line-height: 50px; text-align: center; }
+.fNav li{ display: inline-block; padding-right: 10px; }
+.fNav li:after{ content: '|'; position: relative; left: 7px; top: -2px; }
+.fNav .last{ padding-right: 0; }
+.fNav .last:after{ content: ''; }
+
+.family li{ width: 100%; height: 30px; padding-left: 10px; box-sizing: border-box; }
+
+
+
+
+
+
+
